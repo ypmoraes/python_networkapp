@@ -1,0 +1,4 @@
+interface vlan 100
+no shut
+end
+wr
