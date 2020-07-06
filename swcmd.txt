@@ -1,4 +1,9 @@
-interface vlan 100
-no shut
+tacacs-server host 10.10.10.7
+tacacs-server key python
+tacacs-server timeout 10
+ntp server 10.10.10.8
+vlan 10
+vlan 20
+vlan 30
 end
 wr
